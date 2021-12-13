@@ -1,1 +1,105 @@
-.recommendations
+.recommended
+  &-wrapper
+    display: flex
+  &__title
+    font-family: $roboto-condensed
+    font-weight: 700
+    font-size: 32px
+    line-height: 40px
+    color: $primary
+  &__item
+    display: flex
+    border: 1px solid $border-color
+    padding: 11px
+    margin-bottom: 32px
+    max-width: 358px
+    border-radius: 8px
+    &:nth-child(odd)
+      margin-right: 32px
+  &__books
+    margin-right: 0
+    &-wrapper
+      display: flex
+      flex-wrap: wrap
+  &__button
+    font-family: $roboto-condensed
+    font-weight: 700
+    font-size: 16px
+    line-height: 20px
+    color: $light-blue
+    background-color: rgba(21, 101, 216, 0.1)
+    border: none
+    border-radius: 8px
+    padding: 25px 283px 27px 287px
+.books
+  max-width: 751px
+  margin-right: 32px
+  &__image
+    border-radius: 8px
+  &__description
+    display: flex
+    flex-direction: column
+    margin-left: 20px
+    padding-top: 13px
+  &__title
+    font-family: $roboto
+    font-weight: 500
+    font-size: 22px
+    line-height: 32px
+    color: $primary
+    margin-bottom: 16px
+  &__category
+    font-family: $open-sans
+    font-weight: 400
+    font-size: 16px
+    line-height: 22px
+    color: $primary
+    margin-bottom: 24px
+  &__price
+    font-family: $roboto-condensed
+    font-weight: 700
+    font-size: 20px
+    line-height: 24px
+    color: $light-blue
+    margin-bottom: 24px
+  &__button
+    display: flex
+    align-items: center
+    &-buy
+      font-family: $open-sans
+      font-weight: 700
+      font-size: 16px
+      line-height: 22px
+      color: $light
+      background-color: $primary
+      border: none
+      border-radius: 20px
+      padding: 7px 20px
+      margin-right: 25px
+.month-best
+  &-wrapper
+    background-color: rgba(179, 186, 197, 0.1)
+    border-radius: 8px
+    padding: 24px 20px 0px 24px
+    max-width: 360px
+  &__item
+    display: flex
+    //max-width: 286px
+    &:not(:last-child)
+      margin-bottom: 36px
+  &__image
+    max-height: 177.5px
+    border-radius: 8px
+  &__button
+    border-top: 1px solid $border-color
+    border-bottom: none
+    border-right: none
+    border-left: none
+    color: $light-blue
+    background: transparent
+    font-family: $roboto-condensed
+    font-weight: 700
+    font-size: 16px
+    line-height: 20px
+    padding: 27px 100px 31px 100px
+    border-radius: 0px 0px 8px 8px

@@ -1,0 +1,29 @@
+
+@media (max-width: 768px)
+  .container
+    max-width: 700px
+  .navbar
+    &-menu
+      display: none
+      &--mobile
+        &--visible
+          display: flex
+          position: fixed
+          left: 0
+          right: 0
+          bottom: 0
+  .menu
+    &-button
+      display: flex
+      width: 22px
+      height: 18px
+      align-items: center
+      justify-content: space-between
+      flex-direction: column
+      border: none
+      background-color: $light
+      cursor: pointer
+      &__line
+        width: 22px
+        height: 2px
+        background-color: $primary

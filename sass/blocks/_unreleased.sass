@@ -2,6 +2,7 @@
   background-color: $primary
   padding-top: 62px
   padding-bottom: 80px
+  position: relative
   &__title
     font-family: $roboto-condensed
     font-weight: 700
@@ -11,15 +12,18 @@
     margin-bottom: 60px
   &-slider
     &__item
-      width: 204px
+      max-width: 204px
       height: 298px
       margin-right: 30px
+      //width: 100%
       border-radius: 8px
+    &__image
+      object-fit: fill
     &__button
       position: absolute
-      //top: 50%
+      top: 0
       z-index: 99
-      transform: translateY(-50%)
+      //transform: translateY(-50%)
       width: 56px
       height: 56px
       border: none
@@ -30,7 +34,7 @@
       background-repeat: no-repeat
       background-position: center
       &--next
-        //right: -28px
+        right: 0px
         background-image: url(../img/unreleased-arrow-next.svg)
       &--prev
         //left: -28px

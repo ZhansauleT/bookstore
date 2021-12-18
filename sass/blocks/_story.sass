@@ -1,12 +1,16 @@
 .story
   margin-top: 76px
   margin-bottom: 100px
+  //padding-left: 70px
+  max-width: 1005px
+  margin-right: auto
+  margin-left: auto
   &-header
     display: flex
-    justify-content: space-between
+    //justify-content: space-between
     padding-top: 28px
     padding-right: 10px
-    margin-bottom: 24px
+    margin-bottom: 20px
   &__title
     font-family: $roboto-condensed
     font-weight: 700
@@ -14,6 +18,7 @@
     line-height: 60px
     color: $primary
     margin: 0
+    margin-right: 265px
   &__description
     font-family: $open-sans
     font-weight: 400
@@ -22,15 +27,31 @@
     color: $text-color
     width: 383px
   &-main
-    margin-bottom: 30px
+    margin-bottom: 26px
+    position: relative
     &__video
-      max-width: 1005px
-      height: 380px
+      max-height: 380px
+      min-width: 1005px
+      object-fit: fill
+    &__button
+      position: absolute
+      top: 50%
+      right: 50%
+      transform: translate(50%, -50%)
+      background-image: url(../img/play-main.svg)
+      border: none
+      width: 100px
+      height: 100px
+      background-color: transparent
   &-secondary
     display: flex
     justify-content: space-between
+    &__item
+      position: relative
     &__video
       max-width: 315px
+      height: 200px
+      object-fit: fill
     &__info
       display: flex
       align-items: start
@@ -52,3 +73,14 @@
       font-size: 16px
       line-height: 22px
       color: $text-color
+    &__button
+      position: absolute
+      background-image: url(../img/play-button.svg)
+      background-color: transparent
+      border: none
+      width: 30px
+      height: 39px
+      z-index: 99
+      top: 35%
+      right: 50%
+      transform: translate(50%, -50%)

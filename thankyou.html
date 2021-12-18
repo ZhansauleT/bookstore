@@ -12,10 +12,132 @@
   <link rel="mask-icon" href="favicon_package/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <header class="navbar navbar--mobile--fixed">
+    <div class="container">
+      <div class="navbar-wrapper">
+        <a href="index.html" class="logo"><img src="img/logo.svg" alt="Icon: Ehya logo"></a>
+        <div class="navbar-menu navbar-menu--mobile--visible">
+          <ul class="navbar-menu__list">
+            <a href="#" class="navbar-menu__item">
+              <li>Рекомендации</li>
+            </a>
+            <a href="#" class="navbar-menu__item">
+              <li>Книги</li>
+            </a>
+            <a href="#" class="navbar-menu__item">
+              <li>Блог</li>
+            </a>
+          </ul>
+          <button data-toggle="modal" class="navbar__button navbar__button--mobile--visible">
+            Получить
+          </button>
+        </div>
+  
+        <button class="menu-button navbar-wrapper__menu-button">
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+        </button>
+      </div>
+    </div>
+  
+  </header>
+  <section class="gratitude">
+    <div class="container">
+      <div class="gratitude__text">
+        <h1 class="gratitude__title">Сообщение отправлено. Спасибо!</h1>
+        <p class="gratitude__message">Наш менеджер свяжется с вами в течении 5 минут.</p>
+      </div>
+      <button class="gratitude__button">Пройти на главную страницу</button>
+    </div>
+    <!-- /.container -->
+  </section>
 
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-top">
+          <div class="footer-top__social-media">
+            <a href="index.html" class="footer-top__logo logo"><img src="img/logo.svg" alt="Icon: Logo Ehya"></a>
+            <span class="footer-top__text">Создайте современный и креативный веб-сайт с crealand</span>
+            <div class="footer-top__icons">
+              <img src="img/google.svg" alt="Icon: Gmail.com">
+              <img src="img/twitter.svg" alt="Icon: Twitter">
+              <img src="img/instagram.svg" alt="Icon: Instagram">
+              <img src="img/linkedin.svg" alt="Icon: Linkedin">
+            </div>
+            <!-- /.footer-top__social-media -->
+          </div>
+          <!-- /.footer-top__social-media -->
+          <div class="footer-top__products">
+            <div class="footer__title">Продукт</div>
+            <ul class="footer-top__list">
+              <li class="footer-top__item">Лэндинг</li>
+              <li class="footer-top__item">Функции</li>
+              <li class="footer-top__item">Документация</li>
+              <li class="footer-top__item">Скидки</li>
+              <li class="footer-top__item">Расценки</li>
+            </ul>
+          </div>
+          <!-- /.footer-top__products -->
+  
+          <div class="footer-top__services">
+            <div class="footer__title">Сервисы</div>
+            <ul class="footer-top__list">
+              <li class="footer-top__item">Документация</li>
+              <li class="footer-top__item">Дизайн</li>
+              <li class="footer-top__item">Темы</li>
+              <li class="footer-top__item">Илюстрации</li>
+              <li class="footer-top__item">UI Kit</li>
+            </ul>
+          </div>
+          <!-- /.footer-top_services -->
+  
+          <div class="footer-top__company">
+            <div class="footer__title">Компания</div>
+            <ul class="footer-top__list">
+              <li class="footer-top__item">О нас</li>
+              <li class="footer-top__item">Условия</li>
+              <li class="footer-top__item">Privacy Policy</li>
+              <li class="footer-top__item">Careers</li>
+            </ul>
+          </div>
+          <!-- /.footer-top__company -->
+  
+          <div class="footer-top__more">
+            <div class="footer__title">Еще..</div>
+            <ul class="footer-top__list">
+              <li class="footer-top__item">Документация</li>
+              <li class="footer-top__item">Лицензия</li>
+              <li class="footer-top__item">Изменения</li>
+            </ul>
+          </div>
+          <!-- /.footer-top__more -->
+        </div>
+        <!-- /.footer-top -->
+        <div class="footer-bottom">
+          <img src="img/footer-heart.svg" alt="Icon: Heart">
+          <span class="footer-bottom__text">Copyright © 2019. Crafted with love.</span>
+        </div>
+        <!-- /.footer-bottom -->
+      </div>
+    </div>
+  </footer>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>

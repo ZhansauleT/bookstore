@@ -27,11 +27,11 @@
         <a href="index.html" class="logo"><img src="img/logo.svg" alt="Icon: Ehya logo"></a>
         <div class="navbar-menu navbar-menu--mobile--visible">
           <ul class="navbar-menu__list">
-            <li class="navbar-menu__item">Рекомендации</li>
-            <li class="navbar-menu__item">Книги</li>
-            <li class="navbar-menu__item">Блог</li>
+            <a href="#" class="navbar-menu__item"><li>Рекомендации</li></a>
+            <a href="#" class="navbar-menu__item"><li >Книги</li></a>
+            <a href="#" class="navbar-menu__item"><li>Блог</li></a>
           </ul>
-          <button class="navbar__button navbar__button--mobile--visible">
+          <button data-toggle="modal" class="navbar__button navbar__button--mobile--visible">
             Получить
           </button>
         </div>
@@ -57,8 +57,8 @@
             клиентов. Теперь я делюсь своими
             золотыми стратегиями ценообразования на творческую работу.
           </p>
-          <button class="banner__button-buy">КУПИТЬ СЕЙЧАС</button>
-          <button class="banner__button-demo">ЧИТАТЬ ДЕМО</button>
+          <button data-toggle="modal" class="banner__button-buy">КУПИТЬ СЕЙЧАС</button>
+          <a href="#" class="banner__button-demo">ЧИТАТЬ ДЕМО</a>
         </div>
         <div class="banner__image">
           <img src="img/header-image.png" alt="Book: The Psychology of Graphic Design Pricing">
@@ -81,7 +81,7 @@
                 <span class="books__category">Art & Design</span>
                 <span class="books__price">$25.00</span>
                 <div class="books__button">
-                  <button class="books__button-buy">Купить</button>
+                  <button data-toggle="modal" class="books__button-buy">Купить</button>
                   <img class="books__icon" src="img/heart.svg" alt="Icon: heart">
                 </div>
               </div>
@@ -95,7 +95,7 @@
                 <span class="books__category">Education</span>
                 <span class="books__price">$28.00</span>
                 <div class="books__button">
-                  <button class="books__button-buy">Купить</button>
+                  <button data-toggle="modal" class="books__button-buy">Купить</button>
                   <img class="books__button_icon" src="img/heart.svg" alt="Icon: heart">
                 </div>
               </div>
@@ -109,7 +109,7 @@
                 <span class="books__category">Novel</span>
                 <span class="books__price">$19.50</span>
                 <div class="books__button">
-                  <button class="books__button-buy">Купить</button>
+                  <button data-toggle="modal" class="books__button-buy">Купить</button>
                   <img class="books__button books__button_icon" src="img/heart.svg" alt="Icon: heart">
                 </div>
               </div>
@@ -123,7 +123,7 @@
                 <span class="books__category">Novel</span>
                 <span class="books__price">$20.00</span>
                 <div class="books__button">
-                  <button class="books__button-buy">Купить</button>
+                  <button data-toggle="modal" class="books__button-buy">Купить</button>
                   <img class="books__button_icon" src="img/heart.svg" alt="Icon: heart">
                 </div>
               </div>
@@ -137,7 +137,7 @@
                 <span class="books__category">Business</span>
                 <span class="books__price">$23.00</span>
                 <div class="books__button">
-                  <button class="books__button-buy">Купить</button>
+                  <button data-toggle="modal" class="books__button-buy">Купить</button>
                   <img class="books__button_icon" src="img/heart.svg" alt="Icon: heart">
                 </div>
               </div>
@@ -151,7 +151,7 @@
                 <span class="books__category">Motivation</span>
                 <span class="books__price">$23.00</span>
                 <div class="books__button">
-                  <button class="books__button-buy">Купить</button>
+                  <button data-toggle="modal" class="books__button-buy">Купить</button>
                   <img class="books__button_icon" src="img/heart.svg" alt="Icon: heart">
                 </div>
               </div>
@@ -172,7 +172,7 @@
                 <span class="books__title">Sprint: Solve,
                   Test in 5 Days</span>
                 <span class="books__price">$23.00</span>
-                <button class="books__button-buy">Купить</button>
+                <button data-toggle="modal" class="books__button-buy">Купить</button>
               </div>
               <!-- /.books_description -->
             </div>
@@ -182,7 +182,7 @@
                 <span class="books__title">Hacking Growth
                   Break Problem</span>
                 <span class="books__price">$23.00</span>
-                <button class="books__button-buy">Купить</button>
+                <button data-toggle="modal" class="books__button-buy">Купить</button>
               </div>
               <!-- /.books_description -->
             </div>
@@ -192,7 +192,7 @@
                 <span class="books__title">Very Nice a
                   Novel by Mercy</span>
                 <span class="books__price">$23.00</span>
-                <button class="books__button-buy">Купить</button>
+                <button data-toggle="modal" class="books__button-buy">Купить</button>
               </div>
               <!-- /.books_description -->
             </div>
@@ -202,7 +202,7 @@
                 <span class="books__title">Hooked: How to
                   Build Products</span>
                 <span class="books__price">$23.00</span>
-                <button class="books__button-buy">Купить</button>
+                <button data-toggle="modal" class="books__button-buy">Купить</button>
               </div>
               <!-- /.books_description -->
             </div>
@@ -315,8 +315,8 @@
         <!-- /.story-main -->
         <div class="story-secondary">
           <div class="story-secondary__item">
-            <video class="story-secondary__video" src="img/video-secondary-1.mp4"></video>
-            <button class="story-secondary__button"></button>
+            <video class="story-secondary__video story-secondary__video--first" src="img/video-secondary-1.mp4"></video>
+            <button class="story-secondary__button story-secondary__button--first"></button>
             <div class="story-secondary__info">
               <div class="story-secondary__description">
                 <span class="story-secondary__title">Emelda Scandroot</span>
@@ -328,8 +328,8 @@
             <!-- /.story-secondary__info -->
           </div>
           <div class="story-secondary__item">
-            <video class="story-secondary__video" src="img/video-secondary-2.mp4"></video>
-            <button class="story-secondary__button"></button>
+            <video class="story-secondary__video story-secondary__video--second" src="img/video-secondary-2.mp4"></video>
+            <button class="story-secondary__button story-secondary__button--second"></button>
             <div class="story-secondary__info">
               <div class="story-secondary__description">
                 <span class="story-secondary__title">Mar Rueda</span>
@@ -341,8 +341,8 @@
             <!-- /.story-secondary__info -->
           </div>
           <div class="story-secondary__item">
-            <video class="story-secondary__video" src="img/video-secondary-3.mp4"></video>
-            <button class="story-secondary__button"></button>
+            <video class="story-secondary__video story-secondary__video--third" src="img/video-secondary-3.mp4"></video>
+            <button class="story-secondary__button story-secondary__button--third"></button>
             <div class="story-secondary__info">
               <div class="story-secondary__description">
                 <span class="story-secondary__title">Nembo Lukeni</span>
@@ -548,7 +548,11 @@
   </div>
   <!-- /.modal -->
 
+  
   <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery.mask.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

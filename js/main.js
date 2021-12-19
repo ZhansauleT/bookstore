@@ -30,6 +30,12 @@ var unreleasedSlider = new Swiper('.unreleased-slider', {
   },
 });
 
+// heart icon color change on click
+// $(".books__icon").click(function(){
+//   $(".books__icon").toggleClass(".books__icon--active");
+//   $(".books__icon").attr("src", "img/heart-red.svg");
+// })
+
 //play the video
 
 $('.story-main__button').click(function(){

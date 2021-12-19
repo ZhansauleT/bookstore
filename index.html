@@ -217,46 +217,47 @@
 
   <section class="categories">
     <div class="container">
-      <h2></h2>
-      <!-- Slider main container -->
-      <div class="swiper categories-slider">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide categories-slider__item">
+      <div class="categories-wrapper">
+        <!-- Slider main container -->
+        <div class="swiper categories-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide categories-slider__item">
               <img class="categories-slider__icon" src="img/business.svg" alt="Icon: business">
               <span class="categories-slider__title">Бизнес & Финансы</span>
               <span class="categories-slider__subtitle">Книги про мир бизнеса</span>
-          </div>
-
-          <div class="swiper-slide categories-slider__item">
+            </div>
+        
+            <div class="swiper-slide categories-slider__item">
               <img class="categories-slider__icon" src="img/self-motivation.svg" alt="Icon: self-motivation">
               <span class="categories-slider__title">Самомотивация</span>
               <span class="categories-slider__subtitle">Книги о мотивации</span>
-          </div>
-
-          <div class="swiper-slide categories-slider__item">
+            </div>
+        
+            <div class="swiper-slide categories-slider__item">
               <img class="categories-slider__icon" src="img/novels.svg" alt="Icon: novels">
               <span class="categories-slider__title">Романы Теленовеллы</span>
               <span class="categories-slider__subtitle">Книги с крутыми историями</span>
-          </div>
-
-          <div class="swiper-slide categories-slider__item">
+            </div>
+        
+            <div class="swiper-slide categories-slider__item">
               <img class="categories-slider__icon" src="img/future-skills.svg" alt="Icon: future skills">
               <span class="categories-slider__title">Навыки будущего</span>
               <span class="categories-slider__subtitle">Книги для самоподготовки</span>
-          </div>
-
-          <div class="swiper-slide categories-slider__item">
+            </div>
+        
+            <div class="swiper-slide categories-slider__item">
               <img class="categories-slider__icon" src="img/future-skills.svg" alt="Icon: future skills">
               <span class="categories-slider__title">Навыки будущего</span>
               <span class="categories-slider__subtitle">Книги для самоподготовки</span>
+            </div>
           </div>
+        
         </div>
-      
         <!-- If we need navigation buttons -->
-        <button class="categories-slider__button categories-slider__button--prev"></button>
-        <button class="categories-slider__button categories-slider__button--next"></button>
+        <button class="categories__button categories__button--prev"></button>
+        <button class="categories__button categories__button--next"></button>
       </div>
     </div>
   </section>
@@ -296,8 +297,8 @@
         
         </div>
         <!-- If we need navigation buttons -->
-        <div class="unreleased-slider__button unreleased-slider__button--prev"></div>
-        <div class="unreleased-slider__button unreleased-slider__button--next"></div>
+        <div class="unreleased__button unreleased__button--prev"></div>
+        <div class="unreleased__button unreleased__button--next"></div>
       </div>
       <!-- /.unreleased-wrapper -->
     </div>
@@ -463,14 +464,14 @@
     <div class="container">
       <div class="footer-wrapper">
         <div class="footer-top">
-          <div class="footer-top__social-media">
+          <div class="social footer-top__social-media">
             <a href="index.html" class="footer-top__logo logo"><img src="img/logo.svg" alt="Icon: Logo Ehya"></a>
             <span class="footer-top__text">Создайте современный и креативный веб-сайт с crealand</span>
             <div class="footer-top__icons">
-              <img src="img/google.svg" alt="Icon: Gmail.com">
-              <img src="img/twitter.svg" alt="Icon: Twitter">
-              <img src="img/instagram.svg" alt="Icon: Instagram">
-              <img src="img/linkedin.svg" alt="Icon: Linkedin">
+              <a href="#"><img class="footer-top__link--hover" src="img/google.svg" alt="Icon: Gmail.com"></a>
+              <a href="#"><img class="footer-top__link--hover" src="img/twitter.svg" alt="Icon: Twitter"></a>
+              <a href="#"><img class="footer-top__link--hover" src="img/instagram.svg" alt="Icon: Instagram"></a>
+              <a href="#"><img class="footer-top__link--hover" src="img/linkedin.svg" alt="Icon: Linkedin"></a>
             </div>
             <!-- /.footer-top__social-media -->
           </div>
@@ -478,11 +479,11 @@
             <div class="footer-top__products">
               <div class="footer__title">Продукт</div>
               <ul class="footer-top__list">
-                <li class="footer-top__item">Лэндинг</li>
-                <li class="footer-top__item">Функции</li>
-                <li class="footer-top__item">Документация</li>
-                <li class="footer-top__item">Скидки</li>
-                <li class="footer-top__item">Расценки</li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Лэндинг</a></li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Функции</a></li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Документация</a></li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Скидки</a></li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Расценки</a></li>
               </ul>
             </div>
             <!-- /.footer-top__products -->
@@ -490,11 +491,11 @@
             <div class="footer-top__services">
               <div class="footer__title">Сервисы</div>
               <ul class="footer-top__list">
-                <li class="footer-top__item">Документация</li>
-                <li class="footer-top__item">Дизайн</li>
-                <li class="footer-top__item">Темы</li>
-                <li class="footer-top__item">Илюстрации</li>
-                <li class="footer-top__item">UI Kit</li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Документация</a></li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Дизайн</a></li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Темы</a></li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Илюстрации</a></li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">UI Kit</a></li>
               </ul>
             </div>
             <!-- /.footer-top_services -->
@@ -502,10 +503,10 @@
             <div class="footer-top__company">
               <div class="footer__title">Компания</div>
               <ul class="footer-top__list">
-                <li class="footer-top__item">О нас</li>
-                <li class="footer-top__item">Условия</li>
-                <li class="footer-top__item">Privacy Policy</li>
-                <li class="footer-top__item">Careers</li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">О нас</a></li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Условия</a></li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Privacy Policy</a></li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Careers</a></li>
               </ul>
             </div>
             <!-- /.footer-top__company -->
@@ -513,9 +514,9 @@
             <div class="footer-top__more">
               <div class="footer__title">Еще..</div>
               <ul class="footer-top__list">
-                <li class="footer-top__item">Документация</li>
-                <li class="footer-top__item">Лицензия</li>
-                <li class="footer-top__item">Изменения</li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Документация</a></li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Лицензия</a></li>
+                <li class="footer-top__item"><a href="#" class="footer-top__link">Изменения</a></li>
               </ul>
             </div>
             <!-- /.footer-top__more -->

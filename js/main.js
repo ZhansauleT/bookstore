@@ -9,8 +9,8 @@ $(document).ready(function () {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.categories-slider__button--next',
-    prevEl: '.categories-slider__button--prev',
+    nextEl: '.categories__button--next',
+    prevEl: '.categories__button--prev',
   },
 
 });
@@ -21,12 +21,10 @@ var unreleasedSlider = new Swiper('.unreleased-slider', {
 
   slidesPerView: 5,
 
-  watchSlidesProgress: true,
-
   // Navigation arrows
   navigation: {
-    nextEl: '.unreleased-slider__button--next',
-    prevEl: '.unreleased-slider__button--prev',
+    nextEl: '.unreleased__button--next',
+    prevEl: '.unreleased__button--prev',
   },
 });
 

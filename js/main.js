@@ -17,7 +17,7 @@ $(document).ready(function () {
 
 var unreleasedSlider = new Swiper('.unreleased-slider', {
   // Optional parameters
-  loop: false,
+  loop: true,
 
   slidesPerView: 5,
 
@@ -94,23 +94,9 @@ $('.story-secondary__video--third').click(function(){
 });
 
 
-
-// $('.story-secondary__button--first').click(function(){
-//   $(".story-secondary__video").get(0).paused ? $(".story-secondary__video").get(0).play() : $(".story-secondary__video").get(0).pause();
-// });
-
-// $('.story-secondary__button--second').click(function(){
-//   $(".story-secondary__video").get(1).paused ? $(".story-secondary__video").get(1).play() : $(".story-secondary__video").get(1).pause();
-// });
-
-// $('.story-secondary__button--third').click(function(){
-//   $(".story-secondary__video").get(2).paused ? $(".story-secondary__video").get(2).play() : $(".story-secondary__video").get(2).pause();
-// });
-
-
 var menuButton = $(".menu-button");
 menuButton.on('click', function(){
-  $(".navbar-bottom").toggleClass('navbar-bottom--visible');
+  $(".navbar-menu").toggleClass('navbar-menu--mobile--visible');
 });
 
 var modalButton = $('[data-toggle=modal]');

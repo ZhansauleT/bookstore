@@ -101,6 +101,7 @@ $('.story-secondary__video--third').click(function(){
 var menuButton = $(".menu-button");
 menuButton.on('click', function(){
   $(".navbar-menu").toggleClass('navbar-menu--mobile--visible');
+  //$("body").css('overflow-y', 'hidden');
 });
 
 var modalButton = $('[data-toggle=modal]');
